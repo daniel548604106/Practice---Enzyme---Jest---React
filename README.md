@@ -1,9 +1,11 @@
-# robofriends-pwa
-adding PWA capabilities to a react app
+## Enzyme
 
-To run the project:
+https://enzymejs.github.io/enzyme/
 
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
+## Enzyme Adaptor - React 17
 
+https://www.npmjs.com/package/@wojtekmaj/enzyme-adapter-react-17
+
+## Enzyme TO JSON Serializer
+
+https://www.npmjs.com/package/enzyme-to-json
