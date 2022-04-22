@@ -19,3 +19,13 @@ workflows:
           version: '16.10'
           # If you are using yarn, change the line below from "npm" to "yarn"
           pkg-manager: npm
+      - build:
+          steps:
+            - run: echo "npm installings"
+            - run: npm install
+            - run: CI=true npm run build
+      - test:
+          steps:
+            - run: echo "testing"
+            - run: npm install
+            - run: npm test
